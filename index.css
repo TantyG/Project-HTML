@@ -34,3 +34,19 @@
 .w-16, .w-20, .w-25, .w-30, .w-33, .w-40, .w-50, .w-60, .w-70, .w-75, .w-80, .w-100 {
     float: left;
 }
+
+.rt-input-input {
+  position: relative;
+  display: inline-block;
+}
+
+.rt-input-input::after {
+  content: '$';
+  font-family: sans-serif;
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  transform: translateY(-50%);
+}   

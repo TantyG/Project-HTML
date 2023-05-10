@@ -12,7 +12,7 @@
 }
 .body{
     text-align: center;
-    background-color: gainsboro;
+    background-image: linear-gradient(to right, red, orange);
     height: 100px;
     padding: 155px;
 }   
@@ -34,6 +34,7 @@
     font-family: ui-serif;
     border-radius: 10px;
     height: 30px;
+
 }
 #search{
     height: 30px;
@@ -57,7 +58,7 @@
     height: auto;
 }
 .center{
-    transform: translate(-50%, 200%);
+    transform: translate(-50%, 50%);
     top: 50%;
     left: 50%;
     position: absolute;
@@ -66,5 +67,29 @@
     font-size: larger;
 }
 .container{
+    position: relative;
+}
+.center1{
+    transform: translate(-50%, -110%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    color: black;
+    font-family: system-ui;
+    font-size: larger;
+}
+.container1{
+    position: relative;
+}
+.center2{
+    transform: translate(-50%, -110%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    color: black;
+    font-family: system-ui;
+    font-size: larger;
+}
+.container2{
     position: relative;
 }
